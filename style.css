@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+root {
+    --default-font: font-family: "Alice", serif;
+
+    --bg-color: #573824;
+    --surface-color: #F0E8C2;
+    --text-color-primary: #291B1A;
+    --text-color-secondary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+
+    font-family: var(--default-font);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
