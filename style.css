@@ -79,3 +79,7 @@ footer{
     text-align: center;
     color: var(--text-color-on-bg);
 }
+
+footer img{
+    vertical-align: middle;
+}
